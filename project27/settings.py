@@ -16,7 +16,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 import os
 TEMPLATE_DIR=os.path.join(BASE_DIR,'templates')
-MEDIA_DIR=os.path.join(BASE_DIR,'media')
+MEDIA_DIR=os.path.join(BASE_DIR,'media')#path of the media folder
 
 MEDIA_ROOT=MEDIA_DIR
 
