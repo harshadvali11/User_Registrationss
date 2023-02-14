@@ -7,7 +7,13 @@
 
 
 {% block body_block %}
+{% if username %}
+
+<h1>Welcome to Home page mr/ms {{username}}</h1>
+
+{% else %}
 
 <h1>Welcome to Home page</h1>
+{% endif %}
 
 {% endblock %}
